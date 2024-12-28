@@ -1,7 +1,7 @@
 # vaultAttachSync
 A short Python script created to automate copying attachments from an old obsidian vault to a new vault. The script is built using only standard Python libraries, so no third-party libraries are necessary (is that redundant to say?). 
 
-Currently only works for PNGs, but adding additional attachment cases would not be difficult. Just submit a PR or comment. Reference my [Copying Vault Attachments](ethantomfod.com) blog post for a guide on how to utilize the script and a breakdown of the RegEx employed. 
+Reference my [Copying Vault Attachments](ethantomfod.com) blog post for a guide on how to utilize the script and a breakdown of the RegEx employed. Currently only works for PNG/JPG/GIF, but adding additional attachment cases is not difficult and outlined in my blog post.  
 
 ## Useage:
 ```

@@ -36,7 +36,7 @@ oldVaultPath = pathlib.Path(args.oldPathArg)
 def getImages(vaultFile)->list:
     '''Takes WindowsPath object and RegExs on File. Returns Images Found'''
     try:
-        images = re.findall(r"\[\[(?:.*?/)(.*?\.png)(?:\|.*?)]]", codecs.decode(vaultFile.read_bytes())) # Return List of Images
+        images = re.findall(r"\[\[(?:.*?/)(.*?\.(?:png|jpg|gif))(?:\|.*?)]]", codecs.decode(vaultFile.read_bytes())) # Return List of Images
         if images: # Ensure Atleast 1 Image
             print(f"[*] From {str(vaultFile)}", end="")
             return images
