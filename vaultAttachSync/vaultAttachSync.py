@@ -2,12 +2,12 @@ import pathlib # Handle File Paths and Globbing
 import re # Regular Expressions
 import shutil # Handle Copying Files
 import codecs # Handle Encoding Bytes
-import argparse # Handle CLI Arguements
+import argparse # Handle CLI Arguments
 
 3 # Intialize argparse
 parser = argparse.ArgumentParser(prog="vaultAttachSync",
                                  description="Handles copying attachments from your old Obsidian Vault to your new Obsidian Vault")
-# Define CLI Arguements
+# Define CLI Arguments
 newVault = parser.add_argument_group('New (Target) Vault', 'Arguments for Vault Currently Missing Attachments')
 newVault.add_argument('-n',
                         help="Absolute Path to New Vault where attachments will be copied to",
@@ -27,7 +27,7 @@ oldVault.add_argument('--oa',
                         dest="oldAttachPath",
                         default="")
 
-# Store Arguemnts in Program's Namespace:
+# Store CLI parameters in program's Namespace:
 args = parser.parse_args()
 # Necessary Global Namespace Variables
 newVaultPath = pathlib.Path(args.newPathArg)

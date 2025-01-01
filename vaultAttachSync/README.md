@@ -3,7 +3,7 @@ A short Python script created to automate copying attachments from an old obsidi
 
 Reference my [Syncing Vault Attachments](https://ethantomford.com/posts/Sync-Obsidian-Vault-Attachments) blog post for a guide on how to utilize the script and a breakdown of the RegEx employed. Currently only works for PNG/JPG/GIF, but adding additional attachment cases is not difficult and outlined in my blog post.  
 
-## Useage:
+## Usage:
 ```
 usage: vaultAttachSync [-h] -n NEWPATHARG [--na NEWATTACHPATH] -o OLDPATHARG [--oa OLDATTACHPATH]
 
