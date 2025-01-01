@@ -58,7 +58,7 @@ Breach #18: BloomsToday (2023-11-11)
 ```
 
 ## Windows Execution Output
-![pwnCheck Windows](./assets/pwnCheck/Windows%20Execution.png)
+![pwnCheck Windows](/assets/pwnCheck/Windows%20Execution.png)
 
 ## Linux Execution Output
-![pwnCheck Linux](./assets/pwnCheck/Linux%20Execution.png)
+![pwnCheck Linux](/assets/pwnCheck/Linux%20Execution.png)
