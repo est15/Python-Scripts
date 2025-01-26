@@ -1,33 +1,7 @@
 # PwnCheck
 A Python script I created to practice working with APIs and retrieving/formatting JSON output. Takes an email as a parameter during program execution to query breach information for that given account. 
 
-## Setup
-1. Create Virtual Environment
-```markdown
-**WINDOWS** 
-C:\> python -m venv $env:userprofile/.venv/beenpwn-api
-
-**LINUX**
-$ python3 -m venv ~/.venv/beenpwn-api
-```
-
-2. Activate Virtual Environment
-```markdown
-**WINDOWS** 
-C:\>powershell -ep bypass 
-C:\>. "$env:USERPROFILE\.venv\beenpwn-api\Scripts\activate.ps1"
-(beenpwn-api) PS C:\Users\user>
-
-**LINUX**
-$ source ~/.venv/beenpwn-api/bin/activate
-(beenpwn-api)$
-```
-
-3. Install Necessary Dependencies 
-```markdown 
-$ python -m pip install -r requirements.txt
-```
-4. Get API Key
+## Get API Key
 Go to [HIBP API](https://haveibeenpwned.com/API/Key) page, setup an account, and purchase an API key. Now you might be thinking "HIBP is free, why would I pay for this API key...." Very valid point. However: Python. Make sure to update the script with your API Key. 
 
 ## Usage:
